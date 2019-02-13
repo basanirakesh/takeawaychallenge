@@ -55,7 +55,6 @@ public class GameOfThree {
                     if (game.number == null) {
                         Random random = new Random();
                         game.number = random.nextInt(Integer.MAX_VALUE);
-                        game.number = 56;
                         System.out.println("Player " + playerNumber + " - random number is generated - " + game.number);
                         changeTurnFlags(game);
                     } else if (game.winner == 0) {
